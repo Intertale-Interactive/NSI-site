@@ -88,48 +88,10 @@ ul > a
     transition: all 0.25s ease-out;
 }
 .button:hover{
-    background-image: linear-gradient(
-       to right, 
-       #E7484F,
-       #E7484F 16.65%,
-       #F68B1D 16.65%,
-       #F68B1D 33.3%,
-       #FCED00 33.3%,
-       #FCED00 49.95%,
-       #009E4F 49.95%,
-       #009E4F 66.6%,
-       #00AAC3 66.6%,
-       #00AAC3 83.25%,
-       #732982 83.25%,
-       #732982 100%,
-       #E7484F 100%
-      
-      
-      
-    );
-    animation:slidebg 3s linear infinite;
- }
-.button:hover{
-    background-image: linear-gradient(
-       to right, 
-       #E7484F,
-       #E7484F 16.65%,
-       #F68B1D 16.65%,
-       #F68B1D 33.3%,
-       #FCED00 33.3%,
-       #FCED00 49.95%,
-       #009E4F 49.95%,
-       #009E4F 66.6%,
-       #00AAC3 66.6%,
-       #00AAC3 83.25%,
-       #732982 83.25%,
-       #732982 100%,
-       #E7484F 100%
-      
-      
-      
-    );
-    animation:slidebg 3s linear infinite;
+    background-color:#9eefe5da;
+}
+.button1:hover{
+    background-color:#9eefe5da;
 }
  
  
@@ -221,7 +183,7 @@ input:focus {
   text-align: center;
   transition: all .2s;
 } 
-.all_button
+.button_1
 {
   background-color: #9EEFE5;
   border-radius: 6px;
@@ -229,12 +191,12 @@ input:focus {
   cursor: pointer;
   font-family: 'Poppins';
   height: 50px;
-  padding: 18px 25px;
+  padding: 0 25px;
   text-align: center;
   transition: all .2s;
 }
 
-.all_button:hover {
+.button_1:hover {
     box-shadow: #9eefe5 0 0 0 1px inset, #9eefe5c9 0 6px 15px 0, #9eefe581 0 2px 2px 0, #9eefe517 0 0 0 4px;
 }
 .article > article
@@ -342,6 +304,7 @@ footer > h1
 #l_short_bio > span
 {
     color: green;
+    background-color: #e1e5ff;
     font-weight: 700;
 }
 .container_3 > div 
@@ -499,6 +462,11 @@ article > h1 > span
     margin-right: 15px;
     animation: slide1 1s ease-in-out infinite;
 }
+.img_in_box
+{
+    width: 100px;
+    border-radius: 18px;
+}
 #redhat_img
 {
     width: 100px;
@@ -535,6 +503,17 @@ article > h1 > span
     justify-content: space-evenly;
     align-items: center;
 }
+.images_ 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images_ > img
+{
+    margin-left: 30px;
+}
 .images > img
 {
     margin-left: 30px;
@@ -553,8 +532,8 @@ article > h1 > span
     flex-direction: column;
     align-items: center;
     background-color: #E1E5FF;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 500px;
+    margin-left: 500px;
     padding-top: 30px;
     margin-bottom: 50px;
     border-radius: 18px;
@@ -576,6 +555,15 @@ article > h1 > span
     border-radius: 5px;
     color: white;
 }
+span
+{
+    font-weight: 700;
+    background-color: #00AAC3;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: white;
+}
 .p_intro_dev
 {
     font-size: 16px;
@@ -586,9 +574,16 @@ article > h1 > span
     margin-right: 100px;
     margin-left: 150px;
 }
-.container_3 > div > ul > a 
+.container_3 > div > ul > a
 {
     text-decoration: none;
     color: #00AAC3;
     font-weight: 700;
+}
+#subtitle
+{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
 }
